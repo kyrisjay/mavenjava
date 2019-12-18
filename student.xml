@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<class>
-    <student><name>张三</name><age>12</age><address>南京市玄武区玄武湖</address></student>
-    <student><name>李四</name><age>14</age><address>南京市玄武区玄武湖2</address></student>
-</class>
