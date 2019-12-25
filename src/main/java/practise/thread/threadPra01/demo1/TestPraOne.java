@@ -1,5 +1,7 @@
-package practise.thread;
+package practise.thread.threadPra01.demo1;
 
+
+import practise.thread.threadPra01.demo1.PraOne;
 
 public class TestPraOne {
     public static void main(String[] args) {

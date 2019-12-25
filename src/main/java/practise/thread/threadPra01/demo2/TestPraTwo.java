@@ -1,4 +1,6 @@
-package practise.thread;
+package practise.thread.threadPra01.demo2;
+
+import practise.thread.threadPra01.demo2.PraTwo;
 
 public class TestPraTwo {
     public static void main(String[] args) {

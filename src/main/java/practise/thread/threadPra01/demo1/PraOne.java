@@ -1,4 +1,4 @@
-package practise.thread;
+package practise.thread.threadPra01.demo1;
 /*
     有三个线程,输出200到400之间所有的数据,如果是奇数那么就输出当前线程的名称
  */

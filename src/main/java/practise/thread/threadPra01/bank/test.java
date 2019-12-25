@@ -1,4 +1,6 @@
-package practise.thread.bank;
+package practise.thread.threadPra01.bank;
+
+import practise.thread.threadPra01.bank.Bank;
 
 public class test {
     public static void main(String[] args) {
