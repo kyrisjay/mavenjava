@@ -1,23 +1,16 @@
 package practise.Single;
 
+/**
+ * 饿汉模式
+ * 饿汉式是在类加载的时候创建实例,所以线程是安全的
+ */
 public class Singleton {
-    //双重检查锁  volatile 关键字可以让所有线程都能看到共享内存的最新状态
-    private static volatile Singleton instance = null;
-
-    private Singleton() {
+    private static final Singleton sl=new Singleton();
+    private Singleton(){
 
     }
 
-    public static Singleton getInstance() {
-        if (instance == null) {
-            synchronized (Singleton.class) {
-                if (instance == null) {
-                    instance = new Singleton();
-                }
-            }
-        }
-
-        return instance;
+    public static Singleton getInstance(){
+        return sl;
     }
-
 }
